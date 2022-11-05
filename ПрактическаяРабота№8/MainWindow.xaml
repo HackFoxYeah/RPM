@@ -1,0 +1,35 @@
+﻿<Window x:Class="practWork_8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practWork_8"
+        mc:Ignorable="d"
+        Title="Практическая работа №8" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid x:Name="Grid">
+        <TextBox x:Name="tbInfo" HorizontalAlignment="Left" Margin="349,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="405" Height="376" FontFamily="Courier New"/>
+        <TextBox x:Name="textBoxNumber" HorizontalAlignment="Left" Margin="243,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="18"/>
+        <TextBox x:Name="tbName" HorizontalAlignment="Left" Margin="30,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbLength" HorizontalAlignment="Left" Margin="30,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbWidth" HorizontalAlignment="Left" Margin="30,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbWeigth" HorizontalAlignment="Left" Margin="30,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbLoadCap" HorizontalAlignment="Left" Margin="30,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbCargoCap" HorizontalAlignment="Left" Margin="30,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbEnginePwr" HorizontalAlignment="Left" Margin="30,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbFuelType" HorizontalAlignment="Left" Margin="30,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Название " HorizontalAlignment="Left" Margin="61,18,0,0" VerticalAlignment="Top"/>
+        <Label Content="Длина" HorizontalAlignment="Left" Margin="68,56,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ширина" HorizontalAlignment="Left" Margin="64,97,0,0" VerticalAlignment="Top"/>
+        <Label Content="Вес" HorizontalAlignment="Left" Margin="75,136,0,0" VerticalAlignment="Top"/>
+        <Label Content="Грузовместимость" HorizontalAlignment="Left" Margin="35,222,0,0" VerticalAlignment="Top"/>
+        <Label Content="Грузоподъёмность" HorizontalAlignment="Left" Margin="35,181,0,0" VerticalAlignment="Top"/>
+        <Label Content="Мощность двигателя" HorizontalAlignment="Left" Margin="26,263,0,0" VerticalAlignment="Top"/>
+        <Label Content="Тип топлива" HorizontalAlignment="Left" Margin="50,304,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbFirstCPR" HorizontalAlignment="Left" Margin="219,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <TextBox x:Name="tbSecondCPR" HorizontalAlignment="Left" Margin="269,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="20"/>
+        <Button x:Name="BTNCreate" Content="Создать корабль" HorizontalAlignment="Left" Margin="40,356,0,0" VerticalAlignment="Top" Click="BTNAddShip_Click" Width="99" Cursor="Hand"/>
+        <Button x:Name="BTNDeleteShip" Content="Удалить корабль&#xA;" HorizontalAlignment="Left" Margin="200,252,0,0" VerticalAlignment="Top" Height="21" Click="BTNDeleteShip_Click" Width="108" RenderTransformOrigin="0.5,0.5" Cursor="Hand"/>
+        <Button x:Name="BTNdoCompare" Content="Сравнить" HorizontalAlignment="Left" Margin="224,142,0,0" VerticalAlignment="Top" Width="58" Click="BTNdoCompare_Click" Cursor="Hand"/>
+        <Button x:Name="BTNDef" Content="Ввести заготовки" HorizontalAlignment="Left" Margin="40,387,0,0" VerticalAlignment="Top" Cursor="Hand"/>
+    </Grid>
+</Window>
